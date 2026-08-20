@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+streamlit
+# lightgbm  # preferred model if available in your environment; forecast.py
+           # automatically falls back to sklearn's HistGradientBoostingRegressor
+           # if lightgbm cannot be installed (as in this build environment).

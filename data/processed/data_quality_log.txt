@@ -1,0 +1,7 @@
+Raw shapes -> sales:(119193, 6) sku_master:(200, 6) calendar:(639, 6) inventory:(17152, 6)
+sku_master: normalized category labels ['Lighting', 'Textiles', 'Decor', 'Furniture', 'Lighting ', 'Small Appliances', 'FURNITURE', 'decor '] -> ['Lighting', 'Textiles', 'Decor', 'Furniture', 'Small Appliances']
+sku_master: 4 missing unit_cost values filled at 62% of list_price
+sales_daily: removed 40 exact duplicate rows
+sales_daily: 250 missing 'unit_price' values reconstructed / median-filled per SKU
+sales_daily: 15 negative units_sold rows clipped to 0
+Final analysis-ready shape: (119153, 20)
