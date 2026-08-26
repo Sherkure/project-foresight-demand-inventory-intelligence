@@ -1,13 +1,13 @@
 {
-  "model_name": "HistGradientBoostingRegressor (sklearn fallback \u2014 LightGBM unavailable in this environment)",
+  "model_name": "LightGBM",
   "horizon_weeks": 6,
   "train_rows": 15175,
   "test_rows": 1200,
   "train_period_end": "2025-08-24",
   "baseline_wape": 0.239,
   "baseline_bias": 10.5708,
-  "model_wape": 0.2301,
-  "model_bias": 13.1686,
+  "model_wape": 0.2307,
+  "model_bias": 13.2156,
   "model_beats_baseline": true,
-  "wape_improvement_pct": 3.73
+  "wape_improvement_pct": 3.49
 }
